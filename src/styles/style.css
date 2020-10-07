@@ -1,1 +1,77 @@
-/** CSS STYLE **/
+body {
+  margin: 0;
+
+  color: #2a2626;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Neucha', cursive;
+}
+
+h1 {
+  line-height: 72px;
+}
+
+h2 {
+  line-height: 60px;
+}
+
+h3 {
+  line-height: 34px;
+}
+
+h4 {
+  line-height: 1.2em;
+}
+
+.container {
+  max-width: 1110px;
+
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  text-align: center;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-tranparent-white {
+  color: #d7ccc0;
+}
+
+.color-light {
+  color: #f5f4f0;
+}
+
+.color-main {
+  color: #fe8a02;
+}
+
+.color-main-dark {
+  color: #42413c;
+}
+
+.color-dark {
+  color: #2a2626;
+}
+
+.color-tranparent-dark {
+  color: #908d8b;
+}
+
+.color-brown {
+  color: #b09a81;
+}
+
+.color-blue {
+  color: #1085c5;
+}
