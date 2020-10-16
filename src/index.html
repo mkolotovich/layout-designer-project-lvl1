@@ -9,32 +9,34 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="section relative">
-        <div class="container d-flex justify-content-between flex-wrap">
+    <header class="section bg-image section-bg-light">
+        <div class="container pt-100 pb-100 relative">
             <h1 class="w-100 title header-level-1">
                 <b class="text-normal color-primary">Когнитивные <br>искажения</b><br>
                 в программировании
             </h1>
             <img class="absolute header-image" src="images/main.png" alt="main image">
-            <div class="column">
-                <p>
-                    Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.
-                </p>
-            </div>
-            <div class="column">
-                <p>
-                    Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.
-                </p>
-                <p>
-                    Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
-                </p>
-                <a class="link d-inline-block color-white text-bold bg-primary text-uppercase text-decoration-none" href="#planning">подробнее</a>
+            <div class="container d-flex">
+                <div class="column">
+                    <p>
+                        Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.
+                    </p>
+                </div>
+                <div class="column">
+                    <p>
+                        Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.
+                    </p>
+                    <p>
+                        Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
+                    </p>
+                    <a class="link d-inline-block color-white text-bold bg-primary text-uppercase text-decoration-none" href="#planning">подробнее</a>
+                </div>
             </div>
         </div>
     </header>
     <main>
         <section>
-            <div class="container text-center">
+            <div class="container pt-100 pb-100 text-center">
                 <h2 class="subtitle header-level-2">
                     Что же это такое,
                     <b class="definition d-block text-normal color-primary">когнитивные искажения?</b>
@@ -44,7 +46,7 @@
             </div>
         </section>
         <div class="bg-primary-dark pt-100">
-            <div class="container">
+            <div class="container pt-100 pb-100">
                 <nav>
                     <ul class="menu list-style-none d-flex flex-wrap justify-content-between">
                         <li class="card">
@@ -101,147 +103,167 @@
                 </nav>
             </div>
         </div>
-        <section class="section relative" id="ikea">
-            <div class="container d-flex justify-content-between flex-wrap">
-                <div class="column">
-                    <img class="shadow mw-100" src="images/1.png" alt="эффект икея">
+        <section class="section bg-image section-bg-light relative" id="ikea">
+            <div class="container pt-100 pb-100">
+                <div class="container d-flex">
+                    <div class="column">
+                        <img class="shadow mw-100" src="images/1.png" alt="эффект икея">
+                    </div>
+                    <div class="column">
+                        <h4 class="header-level-4 subtitle-small color-tranparent-dark">Когнитивные искажения</h4>
+                        <h2 class="header-level-2 section-title">Эффект ИКЕА</h2>
+                        <h3 class="header-level-3 mt-0">
+                            Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.
+                        </h3>
+                    </div>
                 </div>
-                <div class="column">
-                    <h4 class="header-level-4 subtitle-small color-tranparent-dark">Когнитивные искажения</h4>
-                    <h2 class="header-level-2 section-title">Эффект ИКЕА</h2>
-                    <h3 class="header-level-3 mt-0">
-                        Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.
-                    </h3>
-                </div>
-                <h5 class="w-100 section-subtitle bg-brown header-level-5 text-uppercase color-white">
+                <h4 class="w-100 section-subtitle bg-brown header-level-5 text-uppercase color-white">
                     Как проявляется
-                </h5>
-                <div class="column">
-                    <p class="mb-0">
-                        Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.
-                    </p>
-                </div>
-                <div class="column">
-                    <p class="mb-0">
-                        Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.
-                    </p>
+                </h4>
+                <div class="container d-flex">
+                    <div class="column">
+                        <p class="mb-0">
+                            Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p class="mb-0">
+                            Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="section section-dark relative color-white" id="optimization">
-            <div class="container d-flex justify-content-between flex-wrap">
-                <div class="column">
-                    <h4 class="header-level-4 subtitle-small color-white">Когнитивные искажения</h4>
-                    <h2 class="header-level-2 section-title">Преждевременная оптимизация</h2>
-                    <h3 class="header-level-3 mt-0">
-                        Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.
-                    </h3>
+        <section class="section bg-image section-bg-light section-dark relative color-white" id="optimization">
+            <div class="container pt-100 pb-100">
+                <div class="container d-flex">
+                    <div class="column">
+                        <h4 class="header-level-4 subtitle-small color-white">Когнитивные искажения</h4>
+                        <h2 class="header-level-2 section-title">Преждевременная оптимизация</h2>
+                        <h3 class="header-level-3 mt-0">
+                            Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.
+                        </h3>
+                    </div>
+                    <div class="column">
+                        <img class="shadow mw-100" src="images/2.png" alt="Преждевременная оптимизация">
+                    </div>
                 </div>
-                <div class="column">
-                    <img class="shadow mw-100" src="images/2.png" alt="Преждевременная оптимизация">
-                </div>
-                <h5 class="w-100 section-subtitle bg-white header-level-5 text-uppercase color-primary-dark">
+                <h4 class="w-100 section-subtitle bg-white header-level-5 text-uppercase color-primary-dark">
                     Как проявляется
-                </h5>
-                <div class="column">
-                    <p class="mb-0">
-                        Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.
-                    </p>
-                </div>
-                <div class="column">
-                    <p class="mb-0">
-                        Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.
-                    </p>
+                </h4>
+                <div class="container d-flex">
+                    <div class="column">
+                        <p class="mb-0">
+                            Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p class="mb-0">
+                            Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="section relative" id="distortions">
-            <div class="container d-flex justify-content-between flex-wrap">
-                <div class="column">
-                    <img class="shadow mw-100" src="images/3.png" alt="Искажение новизны">
+        <section class="section bg-image section-bg-light relative" id="distortions">
+            <div class="container pt-100 pb-100">
+                <div class="container d-flex">
+                    <div class="column">
+                        <img class="shadow mw-100" src="images/3.png" alt="Искажение новизны">
+                    </div>
+                    <div class="column">
+                        <h4 class="header-level-4 subtitle-small color-tranparent-dark">Когнитивные искажения</h4>
+                        <h2 class="header-level-2 section-title">Искажение новизны</h2>
+                        <h3 class="header-level-3 mt-0">
+                            Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.
+                        </h3>
+                    </div>
                 </div>
-                <div class="column">
-                    <h4 class="header-level-4 subtitle-small color-tranparent-dark">Когнитивные искажения</h4>
-                    <h2 class="header-level-2 section-title">Искажение новизны</h2>
-                    <h3 class="header-level-3 mt-0">
-                        Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.
-                    </h3>
-                </div>
-                <h5 class="w-100 section-subtitle bg-brown header-level-5 text-uppercase color-white">
+                <h4 class="w-100 section-subtitle bg-brown header-level-5 text-uppercase color-white">
                     Как проявляется
-                </h5>
-                <div class="column">
-                    <p class="mb-0">
-                        Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!
-                    </p>
-                </div>
-                <div class="column">
-                    <p class="mb-0">
-                        Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.
-                    </p>
+                </h4>
+                <div class="container d-flex">
+                    <div class="column">
+                        <p class="mb-0">
+                            Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p class="mb-0">
+                            Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="section section-dark relative color-white" id="depreciation">
-            <div class="container d-flex justify-content-between flex-wrap">
-                <div class="column">
-                    <h4 class="header-level-4 subtitle-small color-white">Когнитивные искажения</h4>
-                    <h2 class="header-level-2 section-title">Гиперболическобе обесценивание</h2>
-                    <h3 class="header-level-3 mt-0">
-                        Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.
-                    </h3>
+        <section class="section bg-image section-bg-light section-dark relative color-white" id="depreciation">
+            <div class="container pt-100 pb-100">
+                <div class="container d-flex">
+                    <div class="column">
+                        <h4 class="header-level-4 subtitle-small color-white">Когнитивные искажения</h4>
+                        <h2 class="header-level-2 section-title">Гиперболическобе обесценивание</h2>
+                        <h3 class="header-level-3 mt-0">
+                            Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.
+                        </h3>
+                    </div>
+                    <div class="column">
+                        <img class="shadow mw-100" src="images/4.png" alt="Гиперболическобе обесценивание">
+                    </div>
                 </div>
-                <div class="column">
-                    <img class="shadow mw-100" src="images/4.png" alt="Гиперболическобе обесценивание">
-                </div>
-                <h5 class="w-100 section-subtitle bg-white header-level-5 text-uppercase color-primary-dark">
+                <h4 class="w-100 section-subtitle bg-white header-level-5 text-uppercase color-primary-dark">
                     Как проявляется
-                </h5>
-                <div class="column">
-                    <p class="mb-0">
-                        Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание. 
-                    </p>
-                </div>
-                <div class="column">
-                    <p class="mb-0">
-                        Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.
-                    </p>
+                </h4>
+                <div class="container d-flex">
+                    <div class="column">
+                        <p class="mb-0">
+                            Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание. 
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p class="mb-0">
+                            Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="section relative" id="planning">
-            <div class="container d-flex justify-content-between flex-wrap">
-                <div class="column">
-                    <img class="shadow mw-100" src="images/5.png" alt="Ошибка планирования">
+        <section class="section bg-image section-bg-light relative" id="planning">
+            <div class="container pt-100 pb-100">
+                <div class="container d-flex">
+                    <div class="column">
+                        <img class="shadow mw-100" src="images/5.png" alt="Ошибка планирования">
+                    </div>
+                    <div class="column">
+                        <h4 class="header-level-4 subtitle-small color-tranparent-dark">Когнитивные искажения</h4>
+                        <h2 class="header-level-2 section-title">Ошибка планирования</h2>
+                        <h3 class="header-level-3 mt-0">
+                            Неправильно рассчитывать время необходимое для завершения задачи.
+                        </h3>
+                    </div>
                 </div>
-                <div class="column">
-                    <h4 class="header-level-4 subtitle-small color-tranparent-dark">Когнитивные искажения</h4>
-                    <h2 class="header-level-2 section-title">Ошибка планирования</h2>
-                    <h3 class="header-level-3 mt-0">
-                        Неправильно рассчитывать время необходимое для завершения задачи.
-                    </h3>
-                </div>
-                <h5 class="w-100 section-subtitle bg-brown header-level-5 text-uppercase color-white">
+                <h4 class="w-100 section-subtitle bg-brown header-level-5 text-uppercase color-white">
                     Как проявляется
-                </h5>
-                <div class="column">
-                    <p class="mb-0">
-                        Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное. 
-                    </p>
-                </div>
-                <div class="column">
-                    <p class="mb-0">
-                        Это отлично выражается в старом афоризме:
-                    </p>
-                    <p class="mb-0">
-                        Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.
-                    </p>
+                </h4>
+                <div class="container d-flex">
+                    <div class="column">
+                        <p class="mb-0">
+                            Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное. 
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p class="mb-0">
+                            Это отлично выражается в старом афоризме:
+                        </p>
+                        <p class="mb-0">
+                            Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="container">
+        <div class="container pt-100 pb-100">
             <div class="d-flex bg-primary-dark">
                 <div>
                     <p class="subscribe-text color-white header-level-3-big ">Хотите узнать больше? Подпишитесь на обновления</p>
