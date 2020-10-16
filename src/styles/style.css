@@ -210,10 +210,12 @@ body {
 
 .column {
   flex-basis: 50%;
+  flex-grow: 1;
+  margin-right: 30px;
 }
 
-.container .column:first-child {
-  margin-right: 30px;
+.container .column:last-child {
+  margin-right: 0;
 }
 
 .d-flex {
@@ -345,7 +347,14 @@ body {
 
 .card {
   flex-basis: 350px;
+  flex-grow: 1;
   box-sizing: border-box;
+  margin-right: 30px;
+}
+
+.card:nth-child(3n),
+.card:last-child {
+  margin-right: 0;
 }
 
 .card:nth-child(-n+3) {
